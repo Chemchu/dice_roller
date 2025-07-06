@@ -9859,7 +9859,7 @@ __webpack_require__.d(__webpack_exports__, {
 
 
 
-const __snapshot_835da_b39fc_3 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_b39fc_3", function() {
+const __snapshot_835da_ba3d7_3 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_ba3d7_3", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateImage(pageId);
     __SetClasses(el, "Logo--react");
@@ -9871,7 +9871,7 @@ const __snapshot_835da_b39fc_3 = /*#__PURE__*/ (__webpack_require__("(react:back
         if (ctx.__elements) __SetAttribute(ctx.__elements[0], "src", ctx.__values[0]);
     }
 ], null, undefined, globDynamicComponentEntry, null);
-const __snapshot_835da_b39fc_4 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_b39fc_4", function() {
+const __snapshot_835da_ba3d7_4 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_ba3d7_4", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateImage(pageId);
     __SetClasses(el, "Logo--lynx");
@@ -9883,7 +9883,7 @@ const __snapshot_835da_b39fc_4 = /*#__PURE__*/ (__webpack_require__("(react:back
         if (ctx.__elements) __SetAttribute(ctx.__elements[0], "src", ctx.__values[0]);
     }
 ], null, undefined, globDynamicComponentEntry, null);
-const __snapshot_835da_b39fc_2 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_b39fc_2", function() {
+const __snapshot_835da_ba3d7_2 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_ba3d7_2", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     __SetClasses(el, "Logo");
@@ -9893,7 +9893,7 @@ const __snapshot_835da_b39fc_2 = /*#__PURE__*/ (__webpack_require__("(react:back
 }, [
     (snapshot, index, oldValue)=>(__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .updateEvent */.updateEvent)(snapshot, index, oldValue, 0, "bindEvent", "tap", '')
 ], (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry, null);
-const __snapshot_835da_b39fc_5 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_b39fc_5", function() {
+const __snapshot_835da_ba3d7_5 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_ba3d7_5", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateText(pageId);
     __SetInlineStyles(el, "font-style:italic");
@@ -9901,7 +9901,7 @@ const __snapshot_835da_b39fc_5 = /*#__PURE__*/ (__webpack_require__("(react:back
         el
     ];
 }, null, (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren_0 */.__DynamicPartChildren_0), undefined, globDynamicComponentEntry, null);
-const __snapshot_835da_b39fc_1 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_b39fc_1", function() {
+const __snapshot_835da_ba3d7_1 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_ba3d7_1", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateView(pageId);
@@ -9945,9 +9945,14 @@ const __snapshot_835da_b39fc_1 = /*#__PURE__*/ (__webpack_require__("(react:back
     __AppendElement(el13, el15);
     const el16 = __CreateRawText("to see updates!");
     __AppendElement(el13, el16);
-    const el17 = __CreateView(pageId);
-    __SetInlineStyles(el17, "flex:1");
-    __AppendElement(el2, el17);
+    const el17 = __CreateText(pageId);
+    __SetClasses(el17, "text-blue-600");
+    __AppendElement(el9, el17);
+    const el18 = __CreateRawText("Gus!!");
+    __AppendElement(el17, el18);
+    const el19 = __CreateView(pageId);
+    __SetInlineStyles(el19, "flex:1");
+    __AppendElement(el2, el19);
     return [
         el,
         el1,
@@ -9966,7 +9971,9 @@ const __snapshot_835da_b39fc_1 = /*#__PURE__*/ (__webpack_require__("(react:back
         el14,
         el15,
         el16,
-        el17
+        el17,
+        el18,
+        el19
     ];
 }, [
     function(ctx) {
@@ -9986,48 +9993,48 @@ function App(props) {
     const [alterLogo, setAlterLogo] = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
     (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         var _props_onMounted;
-        console.info('Hello, ReactLynx');
+        console.info("Hello, ReactLynx");
         (_props_onMounted = props.onMounted) === null || _props_onMounted === void 0 ? void 0 : _props_onMounted.call(props);
     }, []);
     const onTap = (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useCallback)(()=>{
-        'background only';
+        "background only";
         setAlterLogo(!alterLogo);
     }, [
         alterLogo
     ]);
-    return /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_b39fc_1, {
+    return /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_ba3d7_1, {
         values: [
             _assets_arrow_png__WEBPACK_IMPORTED_MODULE_3__
         ],
         children: [
-            /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_b39fc_2, {
+            /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_ba3d7_2, {
                 values: [
                     onTap
                 ],
-                children: alterLogo ? /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_b39fc_3, {
+                children: alterLogo ? /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_ba3d7_3, {
                     values: [
                         _assets_react_logo_png__WEBPACK_IMPORTED_MODULE_5__
                     ]
                 }, void 0, false, {
                     fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
-                    lineNumber: 30,
-                    columnNumber: 17
-                }, this) : /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_b39fc_4, {
+                    lineNumber: 28,
+                    columnNumber: 15
+                }, this) : /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_ba3d7_4, {
                     values: [
                         _assets_lynx_logo_png__WEBPACK_IMPORTED_MODULE_4__
                     ]
                 }, void 0, false, {
                     fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
-                    lineNumber: 31,
-                    columnNumber: 17
+                    lineNumber: 30,
+                    columnNumber: 15
                 }, this)
             }, void 0, false, {
                 fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
-                lineNumber: 28,
+                lineNumber: 26,
                 columnNumber: 11
             }, this),
-            /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_b39fc_5, {
-                children: ' src/App.tsx '
+            /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_ba3d7_5, {
+                children: " src/App.tsx "
             }, void 0, false, {
                 fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
                 lineNumber: 40,
@@ -10036,7 +10043,7 @@ function App(props) {
         ]
     }, void 0, true, {
         fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
-        lineNumber: 24,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -10173,7 +10180,7 @@ __webpack_require__.r(__webpack_exports__);
   if (true) {
     (function() {
       var localsJsonString = undefined;
-      // 1751825531742
+      // 1751828285370
       var cssReload = __webpack_require__("(react:background)/./node_modules/@lynx-js/css-extract-webpack-plugin/runtime/hotModuleReplacement.cjs")(module.id, {}, "");
       // only invalidate when locals change
       if (
@@ -10288,7 +10295,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("59644f22ed1b5fc4")
+__webpack_require__.h = () => ("f992a130c237acdf")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {

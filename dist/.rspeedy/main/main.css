@@ -1,4 +1,26 @@
 :root {
+  --tw-tx: 0;
+  --tw-ty: 0;
+  --tw-tz: 0;
+  --tw-rx: 0;
+  --tw-ry: 0;
+  --tw-rz: 0;
+  --tw-skx: 0;
+  --tw-sky: 0;
+  --tw-sx: 1;
+  --tw-sy: 1;
+}
+.italic {
+  font-style: italic;
+}
+.text-blue-600 {
+  color: #2563eb;
+}
+.flex {
+  display: flex;
+}
+
+:root {
   background-color: #000;
   --color-text: #fff;
 }
