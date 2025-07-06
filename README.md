@@ -1,19 +1,21 @@
-# dice_roller app
-So, this is the Bun version using Elysia. The idea is to create a basic dice roller app and serve it on Flyio
-The cool part is to also serve it as a PWA and allow users to download it and use it offline.
+## Rspeedy project
 
-# Elysia with Bun runtime
+This is a ReactLynx project bootstrapped with `create-rspeedy`.
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
+
+First, install the dependencies:
+
 ```bash
-bun create elysia ./elysia-example
+pnpm install
 ```
 
-## Development
-To start the development server run:
+Then, run the development server:
+
 ```bash
-bun run dev
+pnpm run dev
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+Scan the QRCode in the terminal with your LynxExplorer App to see the result.
+
+You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
