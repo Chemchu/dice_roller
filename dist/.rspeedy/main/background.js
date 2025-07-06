@@ -9841,73 +9841,36 @@ __webpack_require__.d(__webpack_exports__, {
 
 
 
-const __snapshot_835da_2202a_1 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_2202a_1", function() {
+const __snapshot_835da_42142_1 = /*#__PURE__*/ (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .createSnapshot */.createSnapshot)("__snapshot_835da_42142_1", function() {
     const pageId = (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__pageId */.__pageId);
     const el = __CreateView(pageId);
     const el1 = __CreateView(pageId);
-    __SetClasses(el1, "Background");
+    __SetClasses(el1, "Background -z-10");
     __AppendElement(el, el1);
     const el2 = __CreateView(pageId);
-    __SetClasses(el2, "App");
+    __SetClasses(el2, "flex flex-col justify-center w-full justify-items-center items-center");
     __AppendElement(el, el2);
-    const el3 = __CreateView(pageId);
-    __SetClasses(el3, "Content");
+    const el3 = __CreateText(pageId);
+    __SetClasses(el3, "pt-10 text-3xl text-white");
     __AppendElement(el2, el3);
-    const el4 = __CreateText(pageId);
-    __SetClasses(el4, "Description");
+    const el4 = __CreateRawText("Dice Roller!!");
     __AppendElement(el3, el4);
-    const el5 = __CreateRawText("Tap the logo and have fun!");
-    __AppendElement(el4, el5);
-    const el6 = __CreateText(pageId);
-    __SetClasses(el6, "Hint");
-    __AppendElement(el3, el6);
-    const el7 = __CreateRawText("Edit");
-    __AppendElement(el6, el7);
-    const el8 = __CreateText(pageId);
-    __SetInlineStyles(el8, "font-style:italic");
-    __AppendElement(el6, el8);
-    const el9 = __CreateRawText("to see updates!");
-    __AppendElement(el6, el9);
-    const el10 = __CreateText(pageId);
-    __SetClasses(el10, "text-blue-600");
-    __AppendElement(el3, el10);
-    const el11 = __CreateRawText("Gus!!");
-    __AppendElement(el10, el11);
-    const el12 = __CreateView(pageId);
-    __SetInlineStyles(el12, "flex:1");
-    __AppendElement(el2, el12);
     return [
         el,
         el1,
         el2,
         el3,
-        el4,
-        el5,
-        el6,
-        el7,
-        el8,
-        el9,
-        el10,
-        el11,
-        el12
+        el4
     ];
-}, null, [
-    [
-        (__webpack_require__("(react:background)/./node_modules/@lynx-js/react/runtime/lib/internal.js")/* .__DynamicPartChildren */.__DynamicPartChildren),
-        8
-    ]
-], undefined, globDynamicComponentEntry, null);
+}, null, null, undefined, globDynamicComponentEntry, null);
 function App(props) {
     (0,_lynx_js_react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         var _props_onMounted;
-        console.info("Hello, ReactLynx");
         (_props_onMounted = props.onMounted) === null || _props_onMounted === void 0 ? void 0 : _props_onMounted.call(props);
     }, []);
-    return /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_2202a_1, {
-        children: " src/App.tsx "
-    }, void 0, false, {
+    return /*#__PURE__*/ (0,_lynx_js_react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(__snapshot_835da_42142_1, {}, void 0, false, {
         fileName: "/home/gus/proyectos/dice_roller/src/App.tsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -10044,7 +10007,7 @@ __webpack_require__.r(__webpack_exports__);
   if (true) {
     (function() {
       var localsJsonString = undefined;
-      // 1751828840767
+      // 1751831157632
       var cssReload = __webpack_require__("(react:background)/./node_modules/@lynx-js/css-extract-webpack-plugin/runtime/hotModuleReplacement.cjs")(module.id, {}, "");
       // only invalidate when locals change
       if (
@@ -10159,7 +10122,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("e56c956583fc42fa")
+__webpack_require__.h = () => ("e96a1d0453948d6d")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {
@@ -10624,7 +10587,7 @@ if (typeof globalThis !== "undefined") {
 // webpack/runtime/lynx css hot update
 (() => {
 
-__webpack_require__.cssHotUpdateList = [["main",".rspeedy/main/main.css.hot-update.json"]];
+__webpack_require__.cssHotUpdateList = [["main",".rspeedy/main/main.0f4ee2eec9341912.css.hot-update.json"]];
 
 })();
 // webpack/runtime/make_namespace_object
