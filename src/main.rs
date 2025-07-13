@@ -1,9 +1,6 @@
-use std::sync::Arc;
-
-use actix_web::{App, HttpServer, middleware::Logger, web::Data};
+use actix_web::{App, HttpServer, middleware::Logger};
 use dotenv::dotenv;
 use env_logger::Env;
-use http_service::HttpService;
 
 mod routes;
 
