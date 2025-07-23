@@ -1,0 +1,64 @@
+{
+  "name": "Vampire Dice Roller",
+  "short_name": "VampireDice",
+  "description": "A dice roller app specifically designed for Vampire: The Masquerade tabletop RPG sessions",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6366f1",
+  "background_color": "#1e1b4b",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["games", "entertainment", "utilities"],
+  "icons_config": "/_static/icons/icons.json",
+  "shortcuts": [
+    {
+      "name": "Lanzar d10",
+      "short_name": "d10",
+      "description": "Quickly roll a single d10",
+      "url": "/?dice=1&sides=10&difficulty=6",
+      "icons": [
+        {
+          "src": "/_static/icons/shortcut-d10.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Pool de dados",
+      "short_name": "Pool",
+      "description": "Roll multiple dice pool",
+      "url": "/?dice=5&sides=10&difficulty=6",
+      "icons": [
+        {
+          "src": "/_static/icons/shortcut-pool.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "dir": "ltr",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "protocol_handlers": [],
+  "share_target": {
+    "action": "/share-results",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

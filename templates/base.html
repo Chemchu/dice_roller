@@ -7,6 +7,14 @@
     <title>{% block title %}{{ title }}{% endblock %}</title>
 
     <script src="/_static/htmx.min.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then((registration) => console.log("SW registered"))
+          .catch((error) => console.log("SW registration failed"));
+      }
+    </script>
 
     <link rel="stylesheet" href="/_static/compiled.css" />
     <link rel="icon" type="image/x-icon" href="/_static/favicon.ico" />
